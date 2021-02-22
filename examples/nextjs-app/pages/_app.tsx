@@ -6,9 +6,9 @@ import type { AppProps, AppContext } from 'next/app'
 import { SSRKeycloakProvider, SSRCookies } from '@react-keycloak/ssr'
 
 const keycloakCfg = {
-  url: 'http://localhost:8080/auth',
-  realm: 'Test',
-  clientId: 'react-test',
+  url: 'http://connect.izigone.ga/auth',
+  realm: 'myrealm',
+  clientId: 'myclient',
 }
 
 interface InitialProps {
